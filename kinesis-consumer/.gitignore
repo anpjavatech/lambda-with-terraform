@@ -1,0 +1,31 @@
+# Build artifacts
+/target/
+
+# Intermediate files
+/Cargo.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log
+
+# Rust-specific files
+**/*.rs.bk
+
+# Exclude generated files from the build
+**/*.d
+**/*.o
+**/*.a
+
+# Exclude Cargo cache and lock files (if needed)
+# Note: Cargo.lock is typically committed for applications, but not for libraries
+# Cargo.lock
